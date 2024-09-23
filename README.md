@@ -36,11 +36,8 @@ Install the required Python packages:
 pip install -r requirements.txt
 ```
 
-Note: The data_fingerprint module is available at https://github.com/chriswilson2020/data_fingerprint/. 
-Install it using:
-```bash
-pip install git+https://github.com/chriswilson2020/data_fingerprint.git
-```
+Note: The data_fingerprint module is available as a standalone module at https://github.com/chriswilson2020/data_fingerprint/
+
 
 #### Setup Environment Variables
 Create a .env file in the project root directory with the following content (an example is included for you to edit also):
