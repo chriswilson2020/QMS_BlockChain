@@ -27,7 +27,7 @@ This script provides a command-line interface to interact with a Multichain node
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/chriswilson2020/blockchain_batch_management.git
+git clone https://github.com/chriswilson2020/QMS_BlockChain.git
 cd blockchain_batch_management
 ```
 ### Install Dependencies
