@@ -52,6 +52,18 @@ RPC_PORT=your_rpc_port
 ### Usage
 You can use the script either standalone or by including it into your jupyter notebook
 
+#### Webserver:
+
+A simple webfront end is included to demonstrate access to view batch records on the blockchain. To start the webserver ensure the multichain network is up and there is data on the blockchain (otherwise there is nothing to see).
+
+Run the webserver as follows:
+```bash
+python3 web_app.py
+```
+
+You can then access the app either on local host 127.0.0.1 (if run locally) or on the ip of the host machine both on port 5000.
+
+
 #### Standalone
 ```bash
 python blockchain_script.py <operation> [<args>]
