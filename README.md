@@ -34,3 +34,35 @@ Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+
+Note: The data_fingerprint module is available at https://github.com/chriswilson2020/data_fingerprint/. 
+Install it using:
+```bash
+pip install git+https://github.com/chriswilson2020/data_fingerprint.git
+```
+
+#### Setup Environment Variables
+Create a .env file in the project root directory with the following content (an example is included for you to edit also):
+```makefile
+RPC_USER=your_rpc_username
+RPC_PASSWORD=your_rpc_password
+RPC_HOST=localhost
+RPC_PORT=your_rpc_port
+```
+
+### Notes
+
+* Date Formats: Dates should be provided in YYYY-MM-DD format unless specified otherwise.
+* Data Integrity: The script uses data fingerprints for integrity verification. The data_fingerprint module provides functions to generate order-dependent and order-independent hashes.
+* Error Handling: The script includes basic error handling for missing or incorrect inputs.
+Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+### License
+
+MIT License
+
+### Contact
+
+For any questions or support, please open an issue.
