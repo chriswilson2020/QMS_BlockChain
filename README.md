@@ -28,3 +28,9 @@ This script provides a command-line interface to interact with a Multichain node
 ```bash
 git clone https://github.com/yourusername/blockchain_batch_management.git
 cd blockchain_batch_management
+```
+### Install Dependencies
+Install the required Python packages:
+```bash
+pip install -r requirements.txt
+```
