@@ -10,6 +10,7 @@ This script provides a command-line interface to interact with a Multichain node
 - **Batch Release Status Updates**: Update the release status of batches (e.g., pending, released, hold).
 - **Batch Data Retrieval**: Retrieve full batch records, batch histories with versioning, and filter batches by expiration dates.
 - **Data Integrity Verification**: Generate and compare data fingerprints using order-dependent and order-independent hashing methods.
+- **Web interface to list batch records**: See the batch records currently held on the blockchain from any node or rpc allowed server on the network
 
 ## Installation
 
